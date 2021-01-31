@@ -57,7 +57,7 @@ export default function Home() {
                   // name = infosDoEvento.target.value;
                   setName(infosDoEvento.target.value);
                 }}
-                placeholder="Diz ai seu nome para jogar :)"
+                placeholder="Diz ai seu nome"
               />
               <button type="submit" disabled={name.length === 0}>
                 Jogar
@@ -76,7 +76,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/isabellaguiardefaria" />
+      <GitHubCorner projectUrl="https://github.com/omariosouto" />
     </QuizBackground>
   );
 }
